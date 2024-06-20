@@ -47,7 +47,7 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BOT_USERNAME = environ.get("BOT_USERNAME", "FilestoreContributerBot") # your bot username without @
-PICS = (environ.get('PICS', 'https://graph.org/file/110ee825ca6fc4b435a94.jpg https://graph.org/file/7c3fc800ccee1f5430749.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', ' https://graph.org/file/7c3fc800ccee1f5430749.jpg https://graph.org/file/110ee825ca6fc4b435a94.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "5")) # Time in Minutes
